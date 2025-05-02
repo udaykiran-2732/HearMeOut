@@ -22,14 +22,14 @@ This repository contains **Hear Me Out**, an assistive web application that empo
 ### 🤟 Sign Language Recognition  
 ![Sign Language Screenshot](images/sign.png)
 
-> 📁 Make sure your screenshots are saved inside an `images/` folder in your root directory. File names must match the above: `tts.png`, `stt.png`, and `sign.png`.
+
 
 ---
 
 ## 🎬 Demo
 
 https://user-images.githubusercontent.com/your-username/your-video-id.mp4  
-*(Or upload to YouTube and paste the link here.)*
+
 
 ---
 
