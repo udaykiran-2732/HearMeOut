@@ -1,131 +1,73 @@
-# 🎓 Hear Me Out – Bridging Communication Gaps
+<h1 align="center">🎓 Hear Me Out – Bridging Communication Gaps</h1>
+<p>This repository contains <strong>Hear Me Out</strong>, an assistive web application that empowers <strong>deaf, mute, and blind</strong> individuals through AI-powered communication tools. Developed using <strong>Django</strong>, <strong>HTML/CSS</strong>, and <strong>JavaScript</strong>, it integrates multiple accessibility features on a single platform.</p>
 
-This repository contains **Hear Me Out**, an assistive web application that empowers **deaf, mute, and blind** individuals through AI-powered communication tools. Developed using **Django**, **HTML/CSS**, and **JavaScript**, it integrates multiple accessibility features on a single platform.
+<hr>
 
----
 
-## 🖼️ Preview
 
-### 🔊 Text-to-Speech Module  
-![TTS Screenshot]([https://drive.google.com/uc?export=view&id=YOUR_IMAGE_ID_1](https://drive.google.com/file/d/1h8yh9090G8niU8gwsSQIol5Q3wmD8C4z/view?usp=sharing))
 
-### 🗣️ Speech-to-Text Module  
-![STT Screenshot](https://drive.google.com/file/d/1l_g_cxcnWNGECtNOc04z0-DGx1qVJ91x/view?usp=sharing)
+<h2>🖼️ Preview</h2>
+<h3>🔊 Text-to-Speech Module</h3>
+<a href="https://ibb.co/tTpccM7f"><img src="https://i.ibb.co/tTpccM7f/Screenshot-2025-04-05-at-6-42-20-PM.png" alt="Screenshot-2025-04-05-at-6-42-20-PM" border="0" /></a>
 
-### 🤟 Sign Language Recognition  
-![Sign Language Screenshot]([https://drive.google.com/uc?export=view&id=YOUR_IMAGE_ID_3](https://drive.google.com/file/d/1qivEOfmN55w1kH0cNybIDg_uHLxiHpOT/view?usp=sharing))
 
-> 📁 These images are hosted on Google Drive. Make sure your files are shared publicly and you use the `FILE_ID` part from the Drive URL.
+<h3>🗣️ Speech-to-Text Module</h3>
 
----
+<a href="https://ibb.co/1YQwLMfY"><img src="https://i.ibb.co/1YQwLMfY/Screenshot-2025-04-05-at-2-48-59-AM.png" alt="Screenshot-2025-04-05-at-2-48-59-AM" border="0"></a>
 
-## 🎬 Demo
+<h3>🤟 Sign Language Recognition</h3>
+<a href="https://ibb.co/mCn41gY3"><img src="https://i.ibb.co/mCn41gY3/Screenshot-2025-04-13-at-6-11-41-PM.png" alt="Screenshot-2025-04-13-at-6-11-41-PM" border="0"></a>
+<p>📁 These images are hosted on Imgbb. Make sure your files are shared publicly and you use the <strong>direct image URL</strong> to display them properly.</p>
 
-🎥 [Watch Demo Video](https://drive.google.com/file/d/1FvsMm-IoqFo_--KzgAZJ8HQXzI7EfNoc/view?usp=sharing)
+<hr>
 
----
+<h2>🎬 Demo</h2>
+<p>🎥 <a href="https://drive.google.com/file/d/1FvsMm-IoqFo_--KzgAZJ8HQXzI7EfNoc/view?usp=sharing">Watch Demo Video</a></p>
 
-## 📌 Features
+<hr>
 
-- 🔡 **Text-to-Speech (TTS):** Converts typed text or uploaded `.txt` / `.pdf` files into audio using dynamic voices.
-- 🎙️ **Speech-to-Text (STT):** Live and file-based voice transcription into text.
-- 🤟 **ASL Translator:** Detects American Sign Language gestures using webcam, converts them to text and speech in real-time.
-- 🌍 **Multilingual & Custom Voices:** Choose voice type and language for TTS playback.
-- 🗂️ **Document Support:** Upload and convert text documents to speech.
-- ♻️ **Undo, Redo, Reset:** Full interaction control in the Sign Language interface.
+<h2>📌 Features</h2>
+<ul>
+    <li>🔡 <strong>Text-to-Speech (TTS):</strong> Converts typed text or uploaded .txt / .pdf files into audio using dynamic voices.</li>
+    <li>🎙️ <strong>Speech-to-Text (STT):</strong> Live and file-based voice transcription into text.</li>
+    <li>🤟 <strong>ASL Translator:</strong> Detects American Sign Language gestures using webcam, converts them to text and speech in real-time.</li>
+    <li>🌍 <strong>Multilingual & Custom Voices:</strong> Choose voice type and language for TTS playback.</li>
+    <li>🗂️ <strong>Document Support:</strong> Upload and convert text documents to speech.</li>
+    <li>♻️ <strong>Undo, Redo, Reset:</strong> Full interaction control in the Sign Language interface.</li>
+</ul>
 
----
+<hr>
 
-## ⚙️ Tech Stack
+<h2>⚙️ Tech Stack</h2>
+<ul>
+    <li><strong>Backend:</strong> Django (Python)</li>
+    <li><strong>Frontend:</strong> HTML, CSS, JavaScript</li>
+    <li><strong>Libraries:</strong> gTTS, SpeechRecognition, OpenCV, Mediapipe</li>
+</ul>
 
-- **Backend:** Django (Python)
-- **Frontend:** HTML, CSS, JavaScript
-- **Libraries:** gTTS, SpeechRecognition, OpenCV, Mediapipe
+<hr>
 
----
+<h2>🛠️ Installation & Usage</h2>
+<p>Follow these steps to run the project locally:</p>
+<h3>1️⃣ Clone the repository</h3>
+<pre><code>git clone https://github.com/your-username/hear-me-out.git
+cd hear-me-out</code></pre>
+<h3>2️⃣ Create a virtual environment</h3>
+<pre><code>python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate</code></pre>
+<h3>3️⃣ Install dependencies</h3>
+<pre><code>pip install -r requirements.txt</code></pre>
+<h3>4️⃣ Run the Django development server</h3>
+<pre><code>python manage.py runserver</code></pre>
+<h3>5️⃣ Open the app in your browser</h3>
+<pre><code>http://127.0.0.1:8000</code></pre>
 
-## 🛠️ Installation & Usage
+<hr>
 
-Follow these steps to run the project locally:
-
-### 1️⃣ Clone the repository
-
-```bash
-git clone https://github.com/your-username/hear-me-out.git
-cd hear-me-out
-```
-
-### 2️⃣ Create a virtual environment
-
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-### 3️⃣ Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4️⃣ Run the Django development server
-
-```bash
-python manage.py runserver
-```
-
-### 5️⃣ Open the app in your browser
-
-```
-http://127.0.0.1:8000
-```
-
----
-
-## 📁 Project Structure
-
-```
-hear-me-out/
+<h2>📁 Project Structure</h2>
+<pre><code>hear-me-out/
 ├── templates/             # HTML files
 ├── static/                # CSS, JS, and media
 ├── images/                # If hosting images locally
 ├── app/                   # Django app folder
-├── requirements.txt       # Project dependencies
-├── manage.py              # Django management script
-└── README.md              # You're reading it 👀
-```
-
----
-
-## 🔗 External Files (Hosted on Google Drive)
-
-- 📂 [ASL Sign Recognition Model Code](https://drive.google.com/file/d/YOUR_CODE_FILE_ID/view?usp=sharing)
-- 📂 [Heavyweight NLP Script](https://drive.google.com/file/d/YOUR_NLP_FILE_ID/view?usp=sharing)
-
----
-
-## 📊 Applications
-
-- 🧏 Assisting individuals with speech, hearing, or visual impairments
-- 🏫 Enhancing inclusion in schools, clinics, and public environments
-- 💡 Promoting accessibility-first development practices
-
----
-
-## 🚀 Future Scope
-
-- Indian Sign Language (ISL) Support
-- Emotion Detection
-- Blind Accessibility (Screen Reader Integration)
-- Assistive Device Compatibility (Smart Glasses, Gloves)
-
----
-
-## 🤝 Contributions
-
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.  
-Don’t forget to ⭐ this repo if it helped you!
-
----
-
-> Made with ❤️ to make communication universal.
+</code></pre>
