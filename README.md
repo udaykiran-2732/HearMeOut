@@ -1,10 +1,3 @@
-# HearMeOut
-HearMeOut is an assistive tool designed for deaf and mute individuals. It converts sign language (A–Z) to text using OpenCV and includes text-to-speech and speech-to-text features for smoother communication. The project aims to bridge accessibility gaps and promote inclusive interaction using simple, real-time solutions.
-
-Link: https://drive.google.com/drive/folders/1YYHm2RFWk3k8nQozAPWLI-2NzFWMr-YQ?usp=sharing
-
-
-
 # 🎓 Hear Me Out – Bridging Communication Gaps
 
 This repository contains **Hear Me Out**, an assistive web application that empowers **deaf, mute, and blind** individuals through AI-powered communication tools. Developed using **Django**, **HTML/CSS**, and **JavaScript**, it integrates multiple accessibility features on a single platform.
@@ -14,22 +7,21 @@ This repository contains **Hear Me Out**, an assistive web application that empo
 ## 🖼️ Preview
 
 ### 🔊 Text-to-Speech Module  
-![TTS Screenshot](images/tts.png)
+![TTS Screenshot]([https://drive.google.com/uc?export=view&id=YOUR_IMAGE_ID_1](https://drive.google.com/file/d/1h8yh9090G8niU8gwsSQIol5Q3wmD8C4z/view?usp=sharing))
 
 ### 🗣️ Speech-to-Text Module  
-![STT Screenshot](images/stt.png)
+![STT Screenshot](https://drive.google.com/file/d/1l_g_cxcnWNGECtNOc04z0-DGx1qVJ91x/view?usp=sharing)
 
 ### 🤟 Sign Language Recognition  
-![Sign Language Screenshot](images/sign.png)
+![Sign Language Screenshot]([https://drive.google.com/uc?export=view&id=YOUR_IMAGE_ID_3](https://drive.google.com/file/d/1qivEOfmN55w1kH0cNybIDg_uHLxiHpOT/view?usp=sharing))
 
-
+> 📁 These images are hosted on Google Drive. Make sure your files are shared publicly and you use the `FILE_ID` part from the Drive URL.
 
 ---
 
 ## 🎬 Demo
 
-https://user-images.githubusercontent.com/your-username/your-video-id.mp4  
-
+🎥 [Watch Demo Video](https://drive.google.com/file/d/1FvsMm-IoqFo_--KzgAZJ8HQXzI7EfNoc/view?usp=sharing)
 
 ---
 
@@ -63,7 +55,7 @@ git clone https://github.com/your-username/hear-me-out.git
 cd hear-me-out
 ```
 
-### 2️⃣ Create a virtual environment (optional but recommended)
+### 2️⃣ Create a virtual environment
 
 ```bash
 python -m venv venv
@@ -96,12 +88,19 @@ http://127.0.0.1:8000
 hear-me-out/
 ├── templates/             # HTML files
 ├── static/                # CSS, JS, and media
-├── images/                # Add your preview images here
+├── images/                # If hosting images locally
 ├── app/                   # Django app folder
 ├── requirements.txt       # Project dependencies
 ├── manage.py              # Django management script
 └── README.md              # You're reading it 👀
 ```
+
+---
+
+## 🔗 External Files (Hosted on Google Drive)
+
+- 📂 [ASL Sign Recognition Model Code](https://drive.google.com/file/d/YOUR_CODE_FILE_ID/view?usp=sharing)
+- 📂 [Heavyweight NLP Script](https://drive.google.com/file/d/YOUR_NLP_FILE_ID/view?usp=sharing)
 
 ---
 
